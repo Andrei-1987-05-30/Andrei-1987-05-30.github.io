@@ -14,6 +14,7 @@
 
     function submitSearch() {
         goto('/search/' + inputValue)
+        inputValue=""
     }
 </script>
 
@@ -45,7 +46,7 @@
         position: relative;
         width: 200px;
         margin: 0.2rem;
-        margin-left: calc(100vw - 420px);
+        margin-left: calc(100vw - 412px);
     }
     input{
         width: 100%;

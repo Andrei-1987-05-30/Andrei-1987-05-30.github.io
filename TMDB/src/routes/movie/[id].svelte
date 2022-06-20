@@ -95,10 +95,12 @@
             display: flex;
             flex-wrap: wrap;
             width: 12rem;
-            padding-left: 1rem;
-            
+            padding-left: 1rem; 
         }
-        @media screen and (max-width: 950px) {
+        .description{
+            padding-top: 3rem;
+        }
+        @media screen and (max-width: 11000px) {
             .image-container {
             width: 80vw;
             display: flex;
@@ -112,6 +114,9 @@
             flex-direction: row;
             flex-wrap: wrap;	
             }
+            .description{
+            padding-top: 0rem;
+        }
     
         }
     </style>

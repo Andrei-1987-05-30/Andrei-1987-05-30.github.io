@@ -34,7 +34,7 @@
             </div>
             
                 
-            <div class="descriprion">
+            <div class="description">
                 <h2>{movieDetail.title}</h2>
                 <p class="overview">{movieDetail.overview}</p>
             </div>
@@ -44,7 +44,7 @@
     
     <style>
         .movie-details-page{
-            padding-top:4rem;
+            padding-top:3rem;
             padding-left: 3rem;
             padding-right: 3rem;
             height: auto;
@@ -66,7 +66,7 @@
         }
         img {
             width: 100%;
-            height: 60vh;
+            height: 70vh;
             object-fit: cover;
             border-radius: 1rem;
         }
@@ -116,7 +116,7 @@
             }
             .description{
             padding-top: 0rem;
-        }
+            }
     
         }
     </style>
